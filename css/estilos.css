@@ -1,0 +1,34 @@
+.tituloPrincipal {
+  font-size: calc(2em + 6vw);
+  font-weight: 150;
+  padding: 0 0 200px;
+  /* color: white; */
+}
+.centrar {
+  text-align: center;
+}
+.fotoPortada {
+}
+.textoBlanco {
+  color: white;
+}
+header.masthead {
+  margin-bottom: 20px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+  /* opacity: 0.9; */
+  min-height: calc(2em + 30vw);
+}
+.iconos {
+  max-width: 100px;
+  vertical-align: middle;
+  align-self: center;
+  page-break-inside: auto;
+}
+.primerSeccion {
+  background-color: rgba(159, 205, 255, 1);
+  color: rgb(91, 109, 85);
+}
