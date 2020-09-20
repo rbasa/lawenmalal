@@ -7,13 +7,15 @@
 .centrar {
   text-align: center;
 }
-.fotoPortada {
+.justificar {
+  text-align: justify;
 }
+/* .fotoPortada {
+} */
 .textoBlanco {
   color: white;
 }
 header.masthead {
-  margin-bottom: 20px;
   background: no-repeat center center;
   background-color: #868e96;
   background-attachment: scroll;
@@ -31,4 +33,64 @@ header.masthead {
 .primerSeccion {
   background-color: rgba(159, 205, 255, 1);
   color: rgb(91, 109, 85);
+}
+.fotoPermacultura {
+  width: 100%;
+  /* height: 100%; */
+}
+.foto-card-preparados {
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.413) 0,
+      rgba(92, 77, 66, 0.386) 100%
+    ),
+    url(../img/valeriana.jpg);
+  /* src="./img/talleresGrupales.jpeg" */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.foto-card-diversidad {
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.413) 0,
+      rgba(92, 77, 66, 0.386) 100%
+    ),
+    url(../img/corredor.jpg);
+  /* src="./img/talleresGrupales.jpeg" */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.foto-card-calendario {
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(
+      to bottom,
+      rgba(92, 77, 66, 0.413) 0,
+      rgba(92, 77, 66, 0.386) 100%
+    ),
+    url(../img/luna.jpeg);
+  /* src="./img/talleresGrupales.jpeg" */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.imagenModales {
+  max-height: 180px;
+  /* width: auto; */
+  /* los siguientes valores son independientes del tamaño del círculo */
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50px;
 }
