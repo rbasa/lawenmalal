@@ -1,7 +1,8 @@
 .tituloPrincipal {
   font-size: calc(2em + 6vw);
   font-weight: 150;
-  padding: 0 0 200px;
+  /* padding-top: 8rem; */
+  padding-bottom: 8rem;
   /* color: white; */
 }
 .centrar {
@@ -10,8 +11,9 @@
 .justificar {
   text-align: justify;
 }
-/* .fotoPortada {
-} */
+.fotoPortada {
+  height: 100%;
+}
 .textoBlanco {
   color: white;
 }
@@ -87,10 +89,19 @@ header.masthead {
   background-size: cover;
 }
 .imagenModales {
-  max-height: 180px;
+  max-height: 400px;
   /* width: auto; */
   /* los siguientes valores son independientes del tamaño del círculo */
-  background-repeat: no-repeat;
-  background-position: 50%;
-  border-radius: 50px;
+  /* background-repeat: no-repeat;
+  background-position: 50%; */
+  border-radius: 50%;
+}
+.loteoFisico {
+  width: 100%;
+}
+.textoModales {
+  vertical-align: middle;
+}
+.fotosComunidad {
+  max-height: inherit;
 }
