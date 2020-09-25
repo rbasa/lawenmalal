@@ -27,15 +27,26 @@ header.masthead {
   min-height: calc(2em + 30vw);
 }
 .iconos {
-  max-width: 100px;
+  max-width: 200px;
   vertical-align: middle;
   align-self: center;
   page-break-inside: auto;
 }
-.primerSeccion {
-  background-color: rgba(159, 205, 255, 1);
-  color: rgb(91, 109, 85);
+.divider{
+  padding-top: 0.6rem;
+  background-color: #fff;
 }
+.primerSeccion {
+  background-color: rgba(133, 179, 240, 0.603);
+  color: rgb(0, 0, 0);
+}
+
+.loteo {
+  background-color: rgba(133, 179, 240, 0.603);
+  color: rgb(0, 0, 0);
+  padding-top: 2.5rem;
+}
+
 .fotoPermacultura {
   width: 100%;
   /* height: 100%; */
