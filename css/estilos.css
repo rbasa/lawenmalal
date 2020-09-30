@@ -1,3 +1,6 @@
+* {
+  font-family: 'Dosis', sans-serif;
+}
 .tituloPrincipal {
   font-size: calc(2em + 6vw);
   /* font-weight: 150; */
